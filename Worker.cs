@@ -32,7 +32,6 @@ namespace WSDemo_1
                 {
                     Process();
                     await Task.Delay(10000, stoppingToken);
-                    //ReadLine();
                 }
                 WriteLine("A file is not found...  I will wait for one to show up");
                 await Task.Delay(10000, stoppingToken);
@@ -64,11 +63,8 @@ namespace WSDemo_1
 
             using (var producer = new ProducerBuilder<string, string>(config).Build())
             {
-                try
+                    try
                     {
-                        // Note: Awaiting the asynchronous produce request below prevents flow of execution
-                        // from proceeding until the acknowledgement from the broker is received (at the 
-                        // expense of low throughput).
                         var deliveryReport = producer.ProduceAsync(topicName, new Message<string, string> { Key = "test", Value = stream });
                         producer.Flush();
                                                
