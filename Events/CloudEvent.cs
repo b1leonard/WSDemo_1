@@ -8,5 +8,6 @@ namespace WSDemo_1
 
         public string type { get; set; }
         public string subject { get; set; }
+        public string message { get; set; }
     }
 }

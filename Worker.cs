@@ -108,7 +108,8 @@ namespace WSDemo_1
                 source = "manual",
                 specversion = "1.0",
                 type = "test.topic",
-                subject = "test.topic.test"   
+                subject = "test.topic.test",
+                message = "hello world!!"   
             };
 
             return cloudevent;
