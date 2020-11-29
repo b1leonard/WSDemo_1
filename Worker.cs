@@ -118,7 +118,6 @@ namespace WSDemo_1
         
         public static bool IsFileThere()
         {
-            
             // for more information about call below see - https://dotnetfiddle.net/RNYV4K
             if (Directory.EnumerateFiles("In/", "*.json").Any())
             {
