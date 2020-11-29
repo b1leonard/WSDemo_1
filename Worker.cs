@@ -67,8 +67,7 @@ namespace WSDemo_1
                     try
                     {
                         var deliveryReport = producer.ProduceAsync(topicName, new Message<string, string> { Key = "test", Value = stream });
-                        producer.Flush();
-                                               
+                        producer.Flush();                                               
                     }
                     catch (ProduceException<string, string> e)
                     {
@@ -110,8 +109,7 @@ namespace WSDemo_1
 
                 myCloudEvent = stream;
             }
-            
-            
+                        
            return myCloudEvent;
 
         }
