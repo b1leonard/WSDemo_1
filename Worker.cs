@@ -29,6 +29,7 @@ namespace WSDemo_1
             while (!stoppingToken.IsCancellationRequested)
             {
                 
+                // Check following for sample code = https://dotnetfiddle.net/d6DTQQ
                 while (IsFileThere())
                 {
                     Process();
