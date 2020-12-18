@@ -71,4 +71,3 @@
 /home/brett/Documents/Code/blog/WSDemo_1/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/msvcr120.dll
 /home/brett/Documents/Code/blog/WSDemo_1/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/zlib.dll
 /home/brett/Documents/Code/blog/WSDemo_1/bin/Debug/netcoreapp3.1/In/Processed/message.json
-/home/brett/Documents/Code/blog/WSDemo_1/bin/Debug/netcoreapp3.1/In/message.json

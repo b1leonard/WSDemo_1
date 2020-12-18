@@ -32,6 +32,7 @@ namespace WSDemo_1
                 // Check following for sample code = https://dotnetfiddle.net/d6DTQQ
                 while (IsFileThere())
                 {
+                    //WriteLine("Call process here");
                     Process();
                     await Task.Delay(10000, stoppingToken);
                 }
